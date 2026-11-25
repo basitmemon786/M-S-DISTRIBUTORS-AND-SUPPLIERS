@@ -1671,3 +1671,4 @@ load();buildViews();$('nav').innerHTML=NAV.map(n=>`<button data-v="${n[0]}">${n[
 for(const k in E)defaults(k);clrPay();clearLetter();clrPu();addOut('#orders .tb','#orders table','Orders');addOut('#retailers .tb','#retailers table','Retailer Balances');addOut('#sales .act','#sCards,#sales table','Sales History');addOut('#payroll .tb','#pyCards,#payroll table','Payroll');addOut('#ledger .act','#lBox','Party Ledger');addOut('#recon .act','#rBox','Reconciliation');addOut('#acTb','#acTb + .tw table','Active Client List');addOut('#purchases .tb','#puCards,#purchases table','Purchases');$('oDate').value=today();addLine();renderAll();boot();
 if('serviceWorker' in navigator&&location.protocol.startsWith('http'))window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
 </script></body></html>
+	
